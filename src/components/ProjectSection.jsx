@@ -3,34 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "URL Shortener",
+    description: "A clean and efficient URL shortener built with Next.js.",
+    image: "/projects/Linkly.png",
+    tags: ["Next.js","MongoDB","TailwindCSS"],
+    demoUrl: "",
+    githubUrl: "https://github.com/deepanshusaxena315/Linkly-URL-shortener",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Password Manager",
+    description: "Secure password manager using MongoDB for data storage.",
+    image: "/projects/Lockr.png",
+    tags: ["React.js","Express","MongoDB"],
+    demoUrl: "https://lockr-password-manager.vercel.app",
+    githubUrl: "https://github.com/deepanshusaxena315/Lockr-Password-Manager",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Todo App",
+    description: "Simple and effective todo app to organize your tasks.",
+    image: "/projects/to-do.png",
+    tags: ["React.js","TailwindCSS","Vite"],
+    demoUrl: "https://deepanshusaxena315.github.io/TaskUp-Task-Planner/",
+    githubUrl: "https://github.com/deepanshusaxena315/TaskUp-Task-Planner",
   },
 ];
+
 
 const ProjectsSection = () => {
   return (
@@ -42,8 +41,7 @@ const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are a few projects I’ve built recently, focusing on clean design, smooth performance, and practical functionality.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +99,7 @@ const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/deepanshusaxena315"
           >
             Check My Github <ArrowRight size={16} />
           </a>

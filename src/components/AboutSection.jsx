@@ -12,20 +12,15 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+               Aspiring Web Developer & Tech Enthusiast
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I’m a student and web developer keen on learning new technologies and building useful, accessible web apps.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I love diving into new technologies and solving problems creatively. I’m always looking to improve my skills while contributing effectively.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +30,7 @@ const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/Deepanshu_CV.pdf" download="Deepanshu_Saxena_CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -64,10 +59,9 @@ const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Problem Solving</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Breaking down complicated problems into manageable parts for quicker fixes.
                   </p>
                 </div>
               </div>
@@ -79,10 +73,9 @@ const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Continuous Learning</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                   Keeping up with new tech and applying it to projects.
                   </p>
                 </div>
               </div>

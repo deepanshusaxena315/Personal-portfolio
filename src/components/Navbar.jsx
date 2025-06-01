@@ -9,8 +9,8 @@ const Navitems = [
     {name:"About",href:"#about"},
     {name:"Skills",href:"#skills"},
     {name:"Projects",href:"#projects"},
-    {name:"Contact",href:"#contact"}
-]
+    {name:"Contact",href:"#contact"},
+];
 const Navbar = () => {
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -26,14 +26,14 @@ const Navbar = () => {
 
 
   return (
-    <nav className={cn("fixed w-full transition-all duration-300",
+    <nav className={cn("fixed w-full transition-all duration-300 z-50",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
     )}>
       <div className='container flex items-center justify-between'>
         <a className='font-bold text-xl text-primary flex items-center'
             href='#hero'>
             <span className='relative z-10'>
-                <span className='text-glow text-foreground'>Deepanshu</span> Portfolio
+                <span className='text-glow text-foreground'>Deepanshu</span>{" "} Portfolio
             </span>
         </a>
         {/* desktop navbar */}
