@@ -3,19 +3,19 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "URL Shortener",
-    description: "A clean and efficient URL shortener built with Next.js.",
-    image: "/projects/Linkly.png",
-    tags: ["Next.js","MongoDB","TailwindCSS"],
-    demoUrl: "",
-    githubUrl: "https://github.com/deepanshusaxena315/Linkly-URL-shortener",
+    title: "DevSocial",
+    description: "A developer-centric social media platform with real-time posting, commenting, and voting.",
+    image: "/projects/DevSocial.png",
+    tags: [ "TypeScript", "Supabase", "React.js",],
+    demoUrl: "https://devsocial-dtu.vercel.app",
+    githubUrl: "https://github.com/deepanshusaxena315/DevSocial-socialmedia-app",
   },
   {
     id: 2,
     title: "Password Manager",
     description: "Secure password manager using MongoDB for data storage.",
     image: "/projects/Lockr.png",
-    tags: ["React.js","Express","MongoDB"],
+    tags: ["React.js", "Express", "MongoDB"],
     demoUrl: "https://lockr-password-manager.vercel.app",
     githubUrl: "https://github.com/deepanshusaxena315/Lockr-Password-Manager",
   },
@@ -24,11 +24,12 @@ const projects = [
     title: "Todo App",
     description: "Simple and effective todo app to organize your tasks.",
     image: "/projects/to-do.png",
-    tags: ["React.js","TailwindCSS","Vite"],
+    tags: ["React.js", "TailwindCSS", "Vite"],
     demoUrl: "https://deepanshusaxena315.github.io/TaskUp-Task-Planner/",
     githubUrl: "https://github.com/deepanshusaxena315/TaskUp-Task-Planner",
   },
 ];
+
 
 
 const ProjectsSection = () => {

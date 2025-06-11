@@ -70,20 +70,20 @@ import { useState } from "react";
                   </a>
                 </div>
               </div>
-              {/* <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+918929914824"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    
+                    8929914824
                   </a>
                 </div>
-              </div> */}
+              </div>
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
